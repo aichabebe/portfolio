@@ -1,0 +1,151 @@
+/* header */
+*{
+    margin: 0px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* position: fixed; */
+    
+}
+
+nav h1 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffb6c1;
+}
+
+/* ===== BANNIÈRE ===== */
+.banniere {
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    background-image: url('../images/banniere.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(32, 30, 30);
+}
+/* Section */
+.section {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.section h2 {
+    color: #ff6699;
+    margin-bottom: 30px;
+}
+/* A propos */
+#apropos .contenu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#apropos img {
+    width: 200px;
+    border-radius: 50%;
+}
+/* Compétence */
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill {
+    background: #ffe6ec;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+/* Projet */
+.projets-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.projet {
+    width: 300px;
+    background: #fff0f5;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+
+.projet img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff6699;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff3366;
+}
+/* reseaux */
+.reseaux {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.reseaux a {
+    color: #ff6699;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
